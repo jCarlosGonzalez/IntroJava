@@ -1,0 +1,19 @@
+SOLUCIONARIO 
+
++------------------------------------------------------------------------------------------------+
+| master had recent pushes 27 minutes ago                                                        |
++------------------------------------------------------------------------------------------------+
+ There isn't anything to compare.main and master are entirely different commit histories.
+
+ Solution
+  	The following operations will forcibly overwrite the original code, 
+	so you need to save the content you want to keep in advance, 
+	and then manually update it after overwriting.
+
+		git checkout master
+		git branch main master -f
+		git checkout main
+		git push origin main -f
+
+ Fuente: https://lwebapp.com/en/post/There-isn't-anything-to-compare
++-------------------------------------------------------------------------------------------------+
